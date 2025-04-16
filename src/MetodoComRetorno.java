@@ -24,7 +24,7 @@ public class MetodoComRetorno {
         return sim;
     }
     public static float retornarPi(){
-        double pi = 3.144159;
+        double pi = 3.14159;
         return(float) pi;
     }
 
