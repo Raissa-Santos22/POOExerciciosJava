@@ -7,7 +7,7 @@
     }
 
      public static void main(String[] args) {
-         Esporte esporte = new Esporte();
-         esporte.jogar();
+         Basquete basquete = new Basquete();
+         basquete.jogar();
      }
 }
