@@ -14,7 +14,6 @@ public class ContaBancaria {
     public String getTitular(){
         return titular;
     }
-
     public static void main(String[] args) {
         ContaBancaria conta = new ContaBancaria();
         conta.setSaldo(2540);
@@ -24,4 +23,5 @@ public class ContaBancaria {
                 "Voce tem um saldo de R$ " + conta.getSaldo() + " reais");
 
     }
+
 }
