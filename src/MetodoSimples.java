@@ -10,6 +10,7 @@ public class MetodoSimples {
     public static void iniciar(){
         System.out.println("Olá Mundo!");
     }
+
     public static void imprimir(){
         String nome = "Raissa Amorim dos Santos"; // variável para guardar meu nome
         System.out.println(nome);
