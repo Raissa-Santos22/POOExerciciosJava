@@ -53,9 +53,6 @@ public class SobrecargaDeMetodos {
     public static void exibir(char caractere, String texto){
         System.out.println(caractere); // exibi um caractere
         System.out.println(texto); // exibi uma String
-
     }
-
-
 }
 
