@@ -1,4 +1,5 @@
 public class SobrecargaDeMetodos {
+    // metodo principal
     public static void main(String[] args) {
         SobrecargaDeMetodos sobrecarga = new SobrecargaDeMetodos(); // criamos um objeto
         sobrecarga.exibir(7, 75.4);
@@ -12,19 +13,19 @@ public class SobrecargaDeMetodos {
         System.out.println("Numero inteiro: " + numeroInteiro); // exibi o numero inteiro
         System.out.println("Numero real: " + numeroReal); // exibi o numero real
     }
-    public static void exibir(double ladoQuadrado, double baseRetangulo, double alturaRetangulo){
+    public static void exibir(double ladoQuadrado, double baseRetangulo, double alturaRetangulo){ // parametros do metodo
         double AreaQuadrado = ladoQuadrado * ladoQuadrado; // calculo da área do quadrado
         double AreaRetangulo = baseRetangulo * alturaRetangulo; // calculo da área do retangulo
-        System.out.println("O calculo da área do quadrado é igual a : " + AreaQuadrado);{
-        }
+        System.out.println("O calculo da área do quadrado é igual a : " + AreaQuadrado);
         System.out.println("O calculo da área do retangulo é igual a: " + AreaRetangulo);
+        // exibi o resultado do calculo da area do quadrado e do retangulo
     }
     public static void exibir(String texto, String textoRepetido) {
         System.out.println(texto);
         /*
-        No código abaixo, criei uma variável chamada repetir, que será o contador que quantas vezes
-        o texto será repetido, começando com zero, e usei o while com um loop de repetição até 10
-        somando mais um a cada vez que será repetido
+        No código abaixo, criei uma variável chamada repetir, que será o contador de quantas vezes
+        o texto será repetido, começando com zero, e usei o while como um loop de repetição até 10
+        somando um a cada vez que será repetido exibindo o texto
         */
 
         int repetir = 0;

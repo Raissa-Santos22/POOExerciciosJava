@@ -28,10 +28,9 @@ class Pessoa {
     public int getIdade() {
         return idade;
     }
-
     /*
     O getter vai retornar o valor da idade e do nome, por isso tem o uso do return, é um metodo
-    com retorno, e também vai ser utiliado porque a classe tem seus atributos privados
+    com retorno, e também vai ser utilizado porque a classe tem seus atributos privados
     */
 }
 

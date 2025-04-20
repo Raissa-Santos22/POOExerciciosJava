@@ -11,6 +11,7 @@ public class Produto {
         this.preco = preco;
     }
     // O set vai definir o nome e do preço do produto, uso do void por ser sem retorno
+   // o uso do this para acessar o atributo nome e idade
     public String getNome(){
         return nome;
     }

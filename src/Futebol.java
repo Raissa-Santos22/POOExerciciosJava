@@ -9,6 +9,6 @@
 
      public static void main(String[] args) {
          Futebol futebol = new Futebol();// criando um objeto
-         futebol.jogar();
+         futebol.jogar(); // chamando o metodo jogar ja sobrescrito
      }
  }

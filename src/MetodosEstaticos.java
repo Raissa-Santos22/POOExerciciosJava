@@ -14,16 +14,16 @@ public class MetodosEstaticos {
        int n1 = 20;
        int n2 = 30;
        int soma = n1 + n2;
-       // criei duas variáveis que vão receber numeros, e uma variável chamada soma para guardar
+       // criei duas variáveis com numeros, e uma variável chamada soma para guardar
         // o valor da soma das outras duas varíáveis
 
-        System.out.println("A soma de " + n1 +  " + " + n2 + " é igual a : " + soma);
+        System.out.println("A soma de " + n1 +  " + " + n2 + " é igual a : " + soma); // exibi o valor da soma
     }
     public static void dobrar(int numero){
         int dobro = numero * 2;
         // uma variável que guarda o o dobro do numero recebido pelo parametro do metodo dobrar
 
-        System.out.println("O dobro de " + numero + " é igual a " + dobro);
+        System.out.println("O dobro de " + numero + " é igual a " + dobro); // exibi o valor do dobro do numero recebido
     }
 
     public static void mensagem2(){
@@ -33,7 +33,7 @@ public class MetodosEstaticos {
             System.out.println("Estou estudando a linguagem Java");
         }
         /*Criei uma variável chamada contador que vai ser usada dentro do loop while, que vai somar
-        * 1 até que chegue em 3 , exibindo a mensagem a cada vez que se repete*/
+         1 até que chegue em 3 , exibindo a mensagem a cada vez que se repete */
     }
 
     public static void verificar(int numero){

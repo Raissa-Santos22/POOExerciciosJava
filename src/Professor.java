@@ -8,9 +8,9 @@
     }
 
      public static void main(String[] args) {
-         Professor professor = new Professor(); // criando um novo objeto
+         Professor professor = new Professor(); // criando um novo objeto professor
          professor.trabalhar();
-         Funcionario funcionario = new Funcionario();
+         Funcionario funcionario = new Funcionario(); // criando o objeto funcionario
          funcionario.trabalhar();
 
      }
