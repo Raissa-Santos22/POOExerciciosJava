@@ -30,7 +30,6 @@ public class MetodoSimples {
         }
     }
     public static void exibir(){
-
         System.out.println("Eu adoro programar em Java!");
         // exibe a mensagem
     }
