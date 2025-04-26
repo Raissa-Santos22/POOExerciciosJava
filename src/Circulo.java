@@ -3,7 +3,7 @@
     @Override
 
     public void desenhar(){
-        System.out.println("Desenho de um círculo");
+        System.out.println("Desenhando um círculo");
         // estamos sobrescrevendo o metodo desenhar, herdado da classe mãe Forma
     }
 

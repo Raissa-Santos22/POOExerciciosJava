@@ -1,4 +1,4 @@
-class SobreescitaAnimal {
+class SobrescritaAnimal {
     public void emitirsom(){
         System.out.println("Animal faz som");
     }

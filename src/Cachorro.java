@@ -1,4 +1,4 @@
- class Cachorro extends SobreescitaAnimal {
+ class Cachorro extends SobrescritaAnimal {
     @Override
 
     // A classe Cachorro vai herdar os métodos da classe SobreescritaAnimal
@@ -7,9 +7,12 @@
         System.out.println("Au Au"); // vamos sobrescrever o metodo emitir som da classe mãe SobrescritaAnimal
     }
      public static void main(String [] args){
-        Cachorro cachorro = new Cachorro(); // criamos o objeto cachorro
-        cachorro.emitirsom(); // chamamos o metodo
-        SobreescitaAnimal animal = new SobreescitaAnimal(); // objeto animal
-        animal.emitirsom(); // metodo da classe mãe
+         SobrescritaAnimal sobrescritaAnimal = new SobrescritaAnimal(); // criamos o objeto animal;
+         Cachorro cachorro = new Cachorro();
+
+         sobrescritaAnimal.emitirsom(); // exibimos o metodo emitirsom da classe Sobrescrita Animal
+         cachorro.emitirsom(); // exibimos o metodo emitirsom da classe Cachorro depois de sobrescrita
+
+
      }
 }
