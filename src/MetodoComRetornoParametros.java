@@ -6,7 +6,7 @@ public class MetodoComRetornoParametros {
         System.out.println(MetodoComRetornoParametros.saudar("Seja bem vinda ao nosso sistema ","Camila" ));
         System.out.println(MetodoComRetornoParametros.dobrar(20));
         System.out.println(MetodoComRetornoParametros.concatenar("Chocolate ", "Doce"));
-        System.out.println(MetodoComRetornoParametros.verificarIdade(18));
+        System.out.println(MetodoComRetornoParametros.verificarIdade(20));
         // esses metodos são com retorno e parametros
         // exibi o resultado dos metodos
     }
@@ -28,9 +28,5 @@ public class MetodoComRetornoParametros {
         }else{
             return false; // se não retorna false
         }
-
     }
-
-
-
 }
