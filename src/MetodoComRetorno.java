@@ -33,8 +33,4 @@ public class MetodoComRetorno {
         double pi = 3.14159; // criei uma variável com o valor de pi
         return(float) pi;
     }
-
-
-
-
 }
