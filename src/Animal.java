@@ -24,4 +24,8 @@ public class Animal {
         animal.setSom("Au Au"); // definição do som que o animal faz
         System.out.println("O animal " + animal.getTipo() + " faz " + animal.getSom());
     }
+
+
 }
+
+
